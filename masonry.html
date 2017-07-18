@@ -1,0 +1,145 @@
+<html>
+
+<head>
+<link href="C:\Users\user\Desktop\Bhavana\Masonry Layout\lightbox2-master\dist\css" rel="stylesheet">  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+</head>
+<style>
+    body {
+        font: 1em/1.67 'Open Sans', Arial, Sans-serif;
+        margin: 0;
+        background: #e9e9e9;
+    }
+    
+    .wrapper {
+        width: 95%;
+        margin: 3em auto;
+    }
+    
+    .masonry {
+        margin: 1.5em 0;
+        padding: 0;
+        -moz-column-gap: 1.5em;
+        -webkit-column-gap: 1.5em;
+        column-gap: 1.5em;
+        font-size: .85em;
+    }
+    .item:hover{
+        background: black;
+        opacity: 1;
+        
+        
+    }
+    
+    .item {
+        display: inline-block;
+        background: #000;
+        background: black;
+        opacity: 0.7;
+        padding: 0.5em;
+        margin: 0 0 1.5em;
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-shadow: 2px 2px 4px 0 #ccc;
+    }
+    
+    @media only screen and (min-width: 400px) {
+        .masonry {
+            -moz-column-count: 2;
+            -webkit-column-count: 2;
+            column-count: 2;
+        }
+    }
+    
+    @media only screen and (min-width: 700px) {
+        .masonry {
+            -moz-column-count: 3;
+            -webkit-column-count: 3;
+            column-count: 3;
+        }
+    }
+    
+    @media only screen and (min-width: 900px) {
+        .masonry {
+            -moz-column-count: 4;
+            -webkit-column-count: 4;
+            column-count: 4;
+        }
+    }
+    
+    @media only screen and (min-width: 1100px) {
+        .masonry {
+            -moz-column-count: 5;
+            -webkit-column-count: 5;
+            column-count: 5;
+        }
+    }
+    
+    @media only screen and (min-width: 1280px) {
+        .wrapper {
+            width: 1260px;
+        }
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+</style>
+
+<body>
+
+    <h1 style="text-align: center;"><i>Masonry Layout with Lightbox</i></h1>
+
+
+
+
+
+
+
+
+    <div class="masonry">
+        <div class="item"><a href="s1.jpg" data-lightbox="s1.jpg"><img  src="s1.jpg"></a></div>
+        <div class="item"><a href="s2.jpg" data-lightbox="s2.jpg"><img  src="s2.jpg"></a></div>
+        <div class="item"><a href="s3.jpg" data-lightbox="s3.jpg"><img  src="s3.jpg"></a></div>
+        <div class="item"><a href="s4.jpg" data-lightbox="s4.jpg"><img  src="s4.jpg"></a></div>
+        <div class="item"><a href="s5.jpg" data-lightbox="s5.jpg"><img  src="s5.jpg"></a></div>
+        <div class="item"><a href="s6.jpg" data-lightbox="s6.jpg"><img  src="s6.jpg"></a></div>
+        <div class="item"><a href="s7.jpg" data-lightbox="s7.jpg"><img  src="s7.jpg"></a></div>
+        <div class="item"><a href="s8.jpg" data-lightbox="s8.jpg"><img  src="s8.jpg"></a></div>
+        <div class="item"><a href="s9.jpg" data-lightbox="s9.jpg"><img  src="s9.jpg"></a></div>
+        <div class="item"><a href="s10.jpg" data-lightbox="s10.jpg"><img  src="s10.jpg"></a></div>
+        <div class="item"><a href="s11.jpg" data-lightbox="s11.jpg"><img  src="s11.jpg"></a></div>
+        <div class="item"><a href="s12.jpg" data-lightbox="s12.jpg"><img  src="s12.jpg"></a></div>
+        <div class="item"><a href="s13.jpg" data-lightbox="s13.jpg"><img  src="s13.jpg"></a></div>
+        <div class="item"><a href="s14.jpg" data-lightbox="s14.jpg"><img  src="s14.jpg"></a></div>
+        
+        
+        <div class="item"><a href="s15.jpg" data-lightbox="s15.jpg"><img  src="s15.jpg"></a></div>
+        
+    </div>
+
+
+
+
+
+
+
+
+<script src="C:\Users\user\Desktop\Bhavana\Masonry Layout\lightbox2-master\dist\js">
+    
+</script>
+    <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+        'albumLabel': true
+    })
+</script>
+
+</body>
+
+</html>
